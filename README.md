@@ -11,6 +11,14 @@
 ## 快速开始
 前往 [微信云托管快速开始页面](https://developers.weixin.qq.com/miniprogram/dev/wxcloudrun/src/basic/guide.html)，选择相应语言的模板，根据引导完成部署。
 
+## 本地调试
+下载代码在本地调试，请参考[微信云托管本地调试指南](https://developers.weixin.qq.com/miniprogram/dev/wxcloudrun/src/guide/debug/)。
+
+## 实时开发
+代码变动时，不需要重新构建和启动容器，即可查看变动后的效果。请参考[微信云托管实时开发指南](https://developers.weixin.qq.com/miniprogram/dev/wxcloudrun/src/guide/debug/dev.html)
+
+## Dockerfile最佳实践
+请参考[如何提高项目构建效率](https://developers.weixin.qq.com/miniprogram/dev/wxcloudrun/src/scene/build/speed.html)
 
 ## 目录结构说明
 ~~~
@@ -18,7 +26,7 @@
 ├── Dockerfile                      Dockerfile 文件
 ├── LICENSE                         LICENSE 文件
 ├── README.md                       README 文件
-├── container.config.json           微信云托管流水线配置
+├── container.config.json           模板部署「服务设置」初始化配置（二开请忽略）
 ├── mvnw                            mvnw 文件，处理mevan版本兼容问题
 ├── mvnw.cmd                        mvnw.cmd 文件，处理mevan版本兼容问题
 ├── pom.xml                         pom.xml文件
